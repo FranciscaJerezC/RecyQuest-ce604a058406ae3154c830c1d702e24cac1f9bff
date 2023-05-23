@@ -3,7 +3,7 @@
 global.dinero = 0;
 global.clasificados2 = 0;
 global.oportunidades = 1;
-
+global.acciones = 20;
 global.lavando = false;
 global.aplastando = false;
 global.clasificando = false;

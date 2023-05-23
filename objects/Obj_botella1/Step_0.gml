@@ -64,3 +64,8 @@ if(global.clasificando){
 	}
 	global.clasificando = false;
 }
+
+// Evento "Step" (Paso) del objeto del contador de acciones
+if (global.acciones <= 0) {
+    room_goto(Nvl2_Clasificacion); // Reemplaza "otro_room" con el nombre del room al que deseas redirigir al jugador
+}
