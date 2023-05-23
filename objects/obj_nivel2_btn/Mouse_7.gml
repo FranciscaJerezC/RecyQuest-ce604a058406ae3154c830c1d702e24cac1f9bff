@@ -2,6 +2,6 @@
 // Puede escribir su código en este editor
 if (press == true)
 {
-	room_goto(Nvl2_Clasificacion);
+	room_goto(Nvl2_Preproceso);
 }
 

@@ -1,6 +1,6 @@
-/// @description Inserte aquí la descripción
+/// @description Ir al nivel 3
 // Puede escribir su código en este editor
-//if (press == true)
-//{
-	//room_goto();
-//}
+if (press == true)
+{
+	room_goto(Nvl3_Preproceso);
+}
