@@ -1,5 +1,25 @@
 /// @description preproceso
 
+
+// Evento "Step" (Paso) del objeto
+if (moving) {
+    var mouseX = mouse_x;
+    var mouseY = mouse_y;
+
+    // Movimiento horizontal
+    var diffX = mouseX - startX;
+    if (diffX != 0) {
+        x = startX + diffX;
+    }
+
+    // Movimiento hacia abajo
+    var diffY = mouseY - startY;
+    if (diffY > 0) {
+        y = startY + diffY;
+    }
+}
+
+
 if (x > room_width) {
     // El objeto Desecho ha sobrepasado los límites de la pantalla a la derecha
 

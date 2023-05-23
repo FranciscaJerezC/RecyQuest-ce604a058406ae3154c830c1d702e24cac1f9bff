@@ -5,7 +5,7 @@ direction = 0; // Establecer la dirección hacia la derecha (0 grados)
 lavado = false;
 material_quitado = false;
 aplastado=true;
-
+moving = false;
 clasificado = false;
 
 sprite_index = choose(Spr_botella1,Spr_botella2,Spr_botella3);
