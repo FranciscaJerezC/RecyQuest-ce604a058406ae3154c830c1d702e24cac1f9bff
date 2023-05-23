@@ -7,7 +7,7 @@ material_quitado = false;
 aplastado=true;
 moving = false;
 clasificado = false;
-
+global.botellasClasificadas = 0;
 sprite_index = choose(Spr_botella1,Spr_botella2,Spr_botella3);
 image_speed = 0;
 image_index = 0;
