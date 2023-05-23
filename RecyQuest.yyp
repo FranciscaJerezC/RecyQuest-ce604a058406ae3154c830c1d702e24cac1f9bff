@@ -52,6 +52,7 @@
     {"id":{"name":"Spr_FondoConPantallas_1","path":"sprites/Spr_FondoConPantallas_1/Spr_FondoConPantallas_1.yy",},},
     {"id":{"name":"spr_apretar_boton","path":"sprites/spr_apretar_boton/spr_apretar_boton.yy",},},
     {"id":{"name":"qt_btn_1","path":"sprites/qt_btn_1/qt_btn_1.yy",},},
+    {"id":{"name":"Sprite35","path":"sprites/Sprite35/Sprite35.yy",},},
     {"id":{"name":"nivel1_txt","path":"sprites/nivel1_txt/nivel1_txt.yy",},},
     {"id":{"name":"Spr_botella1","path":"sprites/Spr_botella1/Spr_botella1.yy",},},
     {"id":{"name":"Title","path":"fonts/Title/Title.yy",},},
@@ -88,6 +89,7 @@
     {"id":{"name":"Obj_Game_1","path":"objects/Obj_Game_1/Obj_Game_1.yy",},},
     {"id":{"name":"Obj_mesaVacia","path":"objects/Obj_mesaVacia/Obj_mesaVacia.yy",},},
     {"id":{"name":"Spr_botella3","path":"sprites/Spr_botella3/Spr_botella3.yy",},},
+    {"id":{"name":"FinalNivel","path":"rooms/FinalNivel/FinalNivel.yy",},},
     {"id":{"name":"Obj_boton","path":"objects/Obj_boton/Obj_boton.yy",},},
     {"id":{"name":"obj_qt_btn","path":"objects/obj_qt_btn/obj_qt_btn.yy",},},
     {"id":{"name":"obj_nivel1_btn","path":"objects/obj_nivel1_btn/obj_nivel1_btn.yy",},},
@@ -111,6 +113,7 @@
     {"roomId":{"name":"SelectNivel","path":"rooms/SelectNivel/SelectNivel.yy",},},
     {"roomId":{"name":"Nvl1_Preproceso","path":"rooms/Nvl1_Preproceso/Nvl1_Preproceso.yy",},},
     {"roomId":{"name":"Nvl2_Clasificacion","path":"rooms/Nvl2_Clasificacion/Nvl2_Clasificacion.yy",},},
+    {"roomId":{"name":"FinalNivel","path":"rooms/FinalNivel/FinalNivel.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
