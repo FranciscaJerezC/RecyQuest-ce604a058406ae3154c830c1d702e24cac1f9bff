@@ -1,0 +1,1 @@
+imageIndex = 0;

@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "Nvl1_Preproceso",
-  "creationCodeFile": "${project_dir}/rooms/Nvl1_Preproceso/RoomCreationCode.gml",
+  "creationCodeFile": "rooms/Nvl1_Preproceso/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

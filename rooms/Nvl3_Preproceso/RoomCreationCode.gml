@@ -1,0 +1,1 @@
+global.acciones = 40;
