@@ -58,12 +58,14 @@ if(global.clasificando){
 		clasificado=true;
 		global.clasificados+=1;
 		global.clasificando = false;
+		ds_list_add(global.listaPreprocesados, Obj_botella1);
 		instance_destroy();
 		global.nuevoDeshecho = true;
 		
 	}
 	global.clasificando = false;
 }
+
 
 // Evento "Step" (Paso) del objeto del contador de acciones
 if (global.acciones <= 0) {
@@ -82,4 +84,5 @@ if (roomname == "Nvl2_Clasificacion")
     room_goto(FinalNivel);
 }
 	}
+
 
