@@ -67,22 +67,5 @@ if(global.clasificando){
 }
 
 
-// Evento "Step" (Paso) del objeto del contador de acciones
-if (global.acciones <= 0) {
-    room_goto(Nvl2_Clasificacion); // Reemplaza "otro_room" con el nombre del room al que deseas redirigir al jugador
-}
-
-// Verificar si el contador de desechos es cero
-
-
-var roomname = room_get_name(room);
-
-if (roomname == "Nvl2_Clasificacion")
-	{
-	if global.clasificados == 0 {
-    // Cambiar a otra room
-    room_goto(FinalNivel);
-}
-	}
 
 
