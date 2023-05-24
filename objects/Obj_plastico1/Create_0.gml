@@ -7,6 +7,7 @@ material_quitado = false;
 aplastado=false;
 moving = false;
 clasificado = false;
+error = 0;
 
 sprite_index = Spr_plastico1
 image_speed = 0;

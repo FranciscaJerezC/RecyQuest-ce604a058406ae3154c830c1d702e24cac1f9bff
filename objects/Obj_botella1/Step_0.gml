@@ -53,6 +53,7 @@ if (global.quitando){
 		audio_play_sound(Snd_Right,1,false);
 	}else{
 		audio_play_sound(Snd_Error,1,false);
+		error++;
 	}
 	
 	
@@ -65,6 +66,7 @@ if (global.aplastando){
 		image_index = 3
 	}
 	audio_play_sound(Snd_Error,1,false);
+	error++;
 	
 }
 if(global.clasificando){
@@ -82,7 +84,13 @@ if(global.clasificando){
 		audio_play_sound(Snd_Right,1,false);
 	}else{
 		audio_play_sound(Snd_Error,1,false);
+		error++;
 	}
+}
+
+if (error >=3){
+	error = 0;
+	instance_create_layer(2800,600, "Instances", Obj_ErrorVidrio);
 }
 
 
