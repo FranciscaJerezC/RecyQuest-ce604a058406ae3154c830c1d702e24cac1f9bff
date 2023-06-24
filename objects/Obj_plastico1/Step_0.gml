@@ -12,12 +12,16 @@ if (moving) {
         x = startX + diffX;
     }
 
-    // Movimiento hacia abajo
+    // Movimiento vertical
     var diffY = mouseY - startY;
-    if (diffY > 0) {
+    if (diffY != 0) {
         y = startY + diffY;
     }
 }
+
+// Restringir el movimiento dentro de los límites de la sala, menos un poco de valor del ancho y alto del sprite
+x = clamp(x, 0, 3840-100);
+y = clamp(y, 0, 2160-300);
 
 
 if (x > room_width) {
