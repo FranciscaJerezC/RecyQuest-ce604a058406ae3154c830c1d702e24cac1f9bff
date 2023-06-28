@@ -1,13 +1,12 @@
 /// @description Defino mis variables globales
 
-// NIVEL1
-global.acciones = 20;
 global.clasificados = 0;
 
 global.lavando = false;
 global.aplastando = false;
 global.clasificando = false;
 global.quitando = false;
+global.NoClasificando = false;
 
 global.nuevoDeshecho = true;
 

@@ -40,14 +40,18 @@ if (x > room_width) {
 if(global.lavando){
 	global.acciones-=1;
 	global.lavando = false;
-	lavado = true
-	image_index = 1;
-	audio_play_sound(Snd_Right,1,false);
+	if (lavado == false){
+		lavado = true
+		image_index = 1;
+		audio_play_sound(Snd_Right,1,false);
+	}else{
+		audio_play_sound(Snd_Error,1,false);
+	}
 }
 if (global.quitando){
 	global.acciones-=1;
 	global.quitando = false;
-	if(lavado){
+	if(lavado and material_quitado==false){
 		material_quitado = true;
 		image_index = 2;
 		audio_play_sound(Snd_Right,1,false);
@@ -55,8 +59,6 @@ if (global.quitando){
 		audio_play_sound(Snd_Error,1,false);
 		error++;
 	}
-	
-	
 }
 if (global.aplastando){
 	global.acciones-=1;
@@ -67,7 +69,6 @@ if (global.aplastando){
 	}
 	audio_play_sound(Snd_Error,1,false);
 	error++;
-	
 }
 if(global.clasificando){
 	global.acciones-=1;
@@ -86,6 +87,12 @@ if(global.clasificando){
 		audio_play_sound(Snd_Error,1,false);
 		error++;
 	}
+}
+
+//--- nivel 2 ---
+if (global.NoClasificando){
+	global.acciones-=1;
+	audio_play_sound(Snd_Error,1,false);
 }
 
 if (error >=3){
