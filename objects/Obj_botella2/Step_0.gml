@@ -84,7 +84,7 @@ if(global.clasificando){
 	if(lavado and material_quitado){
 		clasificado=true;
 		global.clasificados+=1;
-		ds_list_add(global.listaPreprocesados, Obj_botella1);
+		ds_list_add(global.listaPreprocesados, Obj_botella2);
 		ds_list_add(global.listaIndex, image_index);
 		show_debug_message(global.listaPreprocesados);
 		show_debug_message(global.listaIndex);

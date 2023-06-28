@@ -32,6 +32,7 @@
     {"name":"Nvl3_Clasificacion","order":5,"path":"rooms/Nvl3_Clasificacion/Nvl3_Clasificacion.yy",},
     {"name":"medalla_oro","order":52,"path":"sprites/medalla_oro/medalla_oro.yy",},
     {"name":"Spr_plastico1","order":48,"path":"sprites/Spr_plastico1/Spr_plastico1.yy",},
+    {"name":"Obj_lata","order":40,"path":"objects/Obj_lata/Obj_lata.yy",},
     {"name":"nivel2_txt","order":37,"path":"sprites/nivel2_txt/nivel2_txt.yy",},
     {"name":"Object6","order":21,"path":"objects/Object6/Object6.yy",},
     {"name":"Nvl2_Preproceso","order":6,"path":"rooms/Nvl2_Preproceso/Nvl2_Preproceso.yy",},
@@ -70,6 +71,7 @@
     {"name":"title","order":13,"path":"sprites/title/title.yy",},
     {"name":"nivel3_btn","order":36,"path":"sprites/nivel3_btn/nivel3_btn.yy",},
     {"name":"Obj_ErrorPlastico","order":37,"path":"objects/Obj_ErrorPlastico/Obj_ErrorPlastico.yy",},
+    {"name":"Spr_lata","order":52,"path":"sprites/Spr_lata/Spr_lata.yy",},
     {"name":"Obj_etiquetas","order":4,"path":"objects/Obj_etiquetas/Obj_etiquetas.yy",},
     {"name":"Obj_medalla_bronce","order":40,"path":"objects/Obj_medalla_bronce/Obj_medalla_bronce.yy",},
     {"name":"Snd_Right","order":2,"path":"sounds/Snd_Right/Snd_Right.yy",},
@@ -120,5 +122,6 @@
     {"name":"obj_ply_btn","order":17,"path":"objects/obj_ply_btn/obj_ply_btn.yy",},
     {"name":"Spr_noReciclable","order":51,"path":"sprites/Spr_noReciclable/Spr_noReciclable.yy",},
     {"name":"Nivel2","order":5,"path":"rooms/Nivel2/Nivel2.yy",},
+    {"name":"Obj_ErrorLata","order":41,"path":"objects/Obj_ErrorLata/Obj_ErrorLata.yy",},
   ],
 }

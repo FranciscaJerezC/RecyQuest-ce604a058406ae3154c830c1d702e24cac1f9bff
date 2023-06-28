@@ -84,7 +84,7 @@ if(global.clasificando){
 	if(lavado and material_quitado and aplastado){
 		clasificado=true;
 		global.clasificados+=1;
-		ds_list_add(global.listaPreprocesados, Obj_plastico1);
+		ds_list_add(global.listaPreprocesados, Obj_plastico2);
 		ds_list_add(global.listaIndex, image_index);
 		instance_destroy();
 		global.nuevoDeshecho = true;
