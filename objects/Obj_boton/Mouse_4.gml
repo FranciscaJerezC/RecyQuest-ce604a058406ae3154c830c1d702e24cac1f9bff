@@ -16,6 +16,10 @@ switch(type){
 	case "aplastar":
 		global.aplastando = true;
 		break;
+		
+	case "NoClasificar":
+		global.NoClasificando = true;
+		break;
 }
 
 
