@@ -11,7 +11,7 @@ options_text[options.main_volume] = "Main Volume";
 options_text[options.fullscreen] = "Fullscreen";
 options_text[options.back] = "Back";
 
-main_volume_value = 30;
+main_volume_value = 100;
 options_index = 0;
 options_timer = 0;
 
