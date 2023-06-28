@@ -14,3 +14,5 @@ global.listaPreprocesados = ds_list_create();
 global.listaIndex = ds_list_create();
 
 global.nivelActual = 0;
+
+global.platita = 0;

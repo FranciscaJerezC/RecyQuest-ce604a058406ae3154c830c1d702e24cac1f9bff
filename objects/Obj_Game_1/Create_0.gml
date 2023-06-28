@@ -1,6 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-global.dinero = 0;
+global.dinero = global.platita;
 global.clasificados2 = 0;
 global.oportunidades = 1;
 global.acciones = 20;
