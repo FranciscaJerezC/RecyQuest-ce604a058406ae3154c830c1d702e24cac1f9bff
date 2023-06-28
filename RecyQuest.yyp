@@ -122,7 +122,6 @@
     {"id":{"name":"Obj_ContAcciones","path":"objects/Obj_ContAcciones/Obj_ContAcciones.yy",},},
     {"id":{"name":"Spr_Vidrio","path":"sprites/Spr_Vidrio/Spr_Vidrio.yy",},},
     {"id":{"name":"bg_fondo_1","path":"sprites/bg_fondo_1/bg_fondo_1.yy",},},
-    {"id":{"name":"Obj_NoRecic","path":"objects/Obj_NoRecic/Obj_NoRecic.yy",},},
     {"id":{"name":"Spr_mesa","path":"sprites/Spr_mesa/Spr_mesa.yy",},},
     {"id":{"name":"Obj_plastico1","path":"objects/Obj_plastico1/Obj_plastico1.yy",},},
     {"id":{"name":"Object8","path":"objects/Object8/Object8.yy",},},

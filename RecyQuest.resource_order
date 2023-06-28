@@ -101,7 +101,6 @@
     {"name":"Obj_ContAcciones","order":1,"path":"objects/Obj_ContAcciones/Obj_ContAcciones.yy",},
     {"name":"Spr_Vidrio","order":42,"path":"sprites/Spr_Vidrio/Spr_Vidrio.yy",},
     {"name":"bg_fondo_1","order":27,"path":"sprites/bg_fondo_1/bg_fondo_1.yy",},
-    {"name":"Obj_NoRecic","order":40,"path":"objects/Obj_NoRecic/Obj_NoRecic.yy",},
     {"name":"Spr_mesa","order":4,"path":"sprites/Spr_mesa/Spr_mesa.yy",},
     {"name":"Obj_plastico1","order":34,"path":"objects/Obj_plastico1/Obj_plastico1.yy",},
     {"name":"Object8","order":23,"path":"objects/Object8/Object8.yy",},
