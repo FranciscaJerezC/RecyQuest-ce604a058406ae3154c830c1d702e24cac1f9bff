@@ -51,6 +51,7 @@ if(global.lavando){
 		audio_play_sound(Snd_Right,1,false);
 	}else{
 		audio_play_sound(Snd_Error,1,false);
+		error++;
 	}
 }
 if (global.quitando){
@@ -101,6 +102,7 @@ if(global.clasificando){
 if (global.NoClasificando){
 	global.acciones-=1;
 	global.NoClasificando = false;
+	error++;
 	audio_play_sound(Snd_Error,1,false);
 }
 

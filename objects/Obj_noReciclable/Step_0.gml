@@ -49,6 +49,7 @@ if(global.lavando){
 if (global.quitando){
 	global.acciones-=1;
 	global.quitando = false;
+	error++;
 	audio_play_sound(Snd_Error,1,false);
 }
 if (global.aplastando){

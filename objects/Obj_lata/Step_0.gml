@@ -93,6 +93,7 @@ if(global.clasificando){
 if (global.NoClasificando){
 	global.acciones-=1;
 	global.NoClasificando = false;
+	error++;
 	audio_play_sound(Snd_Error,1,false);
 }
 
