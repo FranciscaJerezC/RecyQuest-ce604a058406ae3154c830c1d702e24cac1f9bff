@@ -119,6 +119,7 @@
     {"id":{"name":"back_btn","path":"sprites/back_btn/back_btn.yy",},},
     {"id":{"name":"Obj_botella3","path":"objects/Obj_botella3/Obj_botella3.yy",},},
     {"id":{"name":"obj_opt_btn","path":"objects/obj_opt_btn/obj_opt_btn.yy",},},
+    {"id":{"name":"control_musica","path":"objects/control_musica/control_musica.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"Nvl1_Clasificacion","path":"rooms/Nvl1_Clasificacion/Nvl1_Clasificacion.yy",},},
     {"id":{"name":"Obj_DineroGanado","path":"objects/Obj_DineroGanado/Obj_DineroGanado.yy",},},

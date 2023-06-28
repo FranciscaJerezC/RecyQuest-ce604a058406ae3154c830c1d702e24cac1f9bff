@@ -95,6 +95,7 @@
     {"name":"back_btn","order":39,"path":"sprites/back_btn/back_btn.yy",},
     {"name":"Obj_botella3","order":33,"path":"objects/Obj_botella3/Obj_botella3.yy",},
     {"name":"obj_opt_btn","order":16,"path":"objects/obj_opt_btn/obj_opt_btn.yy",},
+    {"name":"control_musica","order":39,"path":"objects/control_musica/control_musica.yy",},
     {"name":"Sprite6","order":14,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"Nvl1_Clasificacion","order":3,"path":"rooms/Nvl1_Clasificacion/Nvl1_Clasificacion.yy",},
     {"name":"Obj_DineroGanado","order":29,"path":"objects/Obj_DineroGanado/Obj_DineroGanado.yy",},
