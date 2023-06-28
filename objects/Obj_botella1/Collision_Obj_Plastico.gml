@@ -4,6 +4,6 @@ if (Material == 3 )
 {
 	instance_destroy();
 	global.nuevoDeshecho = true;
-	global.dinero+=3;
+	global.dinero+=1;
 	global.clasificados2+=1;
 }
