@@ -67,6 +67,7 @@
     {"id":{"name":"nivel1_txt","path":"sprites/nivel1_txt/nivel1_txt.yy",},},
     {"id":{"name":"Spr_botella1","path":"sprites/Spr_botella1/Spr_botella1.yy",},},
     {"id":{"name":"Title","path":"fonts/Title/Title.yy",},},
+    {"id":{"name":"control_musica","path":"objects/control_musica/control_musica.yy",},},
     {"id":{"name":"obj_nivel1_txt","path":"objects/obj_nivel1_txt/obj_nivel1_txt.yy",},},
     {"id":{"name":"ply_btn","path":"sprites/ply_btn/ply_btn.yy",},},
     {"id":{"name":"Spr_plastico2","path":"sprites/Spr_plastico2/Spr_plastico2.yy",},},

@@ -47,6 +47,7 @@
     {"name":"nivel1_txt","order":34,"path":"sprites/nivel1_txt/nivel1_txt.yy",},
     {"name":"Spr_botella1","order":9,"path":"sprites/Spr_botella1/Spr_botella1.yy",},
     {"name":"Title","order":1,"path":"fonts/Title/Title.yy",},
+    {"name":"control_musica","order":39,"path":"objects/control_musica/control_musica.yy",},
     {"name":"obj_nivel1_txt","order":11,"path":"objects/obj_nivel1_txt/obj_nivel1_txt.yy",},
     {"name":"ply_btn","order":10,"path":"sprites/ply_btn/ply_btn.yy",},
     {"name":"Spr_plastico2","order":49,"path":"sprites/Spr_plastico2/Spr_plastico2.yy",},
