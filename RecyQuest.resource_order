@@ -59,6 +59,7 @@
     {"name":"Spawner","order":28,"path":"objects/Spawner/Spawner.yy",},
     {"name":"spr_Etiquetas","order":6,"path":"sprites/spr_Etiquetas/spr_Etiquetas.yy",},
     {"name":"nivel3_txt","order":38,"path":"sprites/nivel3_txt/nivel3_txt.yy",},
+    {"name":"Obj_noReciclable","order":38,"path":"objects/Obj_noReciclable/Obj_noReciclable.yy",},
     {"name":"Sprite8","order":17,"path":"sprites/Sprite8/Sprite8.yy",},
     {"name":"Object7","order":22,"path":"objects/Object7/Object7.yy",},
     {"name":"Obj_ContClasificados","order":6,"path":"objects/Obj_ContClasificados/Obj_ContClasificados.yy",},
@@ -77,6 +78,7 @@
     {"name":"Next","order":47,"path":"sprites/Next/Next.yy",},
     {"name":"setting","order":38,"path":"objects/setting/setting.yy",},
     {"name":"Obj_Vidrio","order":26,"path":"objects/Obj_Vidrio/Obj_Vidrio.yy",},
+    {"name":"Obj_ErrorNoRecic","order":39,"path":"objects/Obj_ErrorNoRecic/Obj_ErrorNoRecic.yy",},
     {"name":"Obj_Clasificados_Nivel2","order":30,"path":"objects/Obj_Clasificados_Nivel2/Obj_Clasificados_Nivel2.yy",},
     {"name":"SIguienteNivel","order":46,"path":"sprites/SIguienteNivel/SIguienteNivel.yy",},
     {"name":"Font3","order":2,"path":"fonts/Font3/Font3.yy",},
@@ -108,6 +110,7 @@
     {"name":"Obj_plastico1","order":34,"path":"objects/Obj_plastico1/Obj_plastico1.yy",},
     {"name":"Object8","order":23,"path":"objects/Object8/Object8.yy",},
     {"name":"obj_ply_btn","order":17,"path":"objects/obj_ply_btn/obj_ply_btn.yy",},
+    {"name":"Spr_noReciclable","order":51,"path":"sprites/Spr_noReciclable/Spr_noReciclable.yy",},
     {"name":"Nivel2","order":5,"path":"rooms/Nivel2/Nivel2.yy",},
   ],
 }

@@ -46,7 +46,7 @@ if(global.lavando){
 	global.acciones-=1;
 	global.lavando = false;
 	if (lavado == false){
-		lavado = true
+		lavado = true;
 		image_index = 1;
 		audio_play_sound(Snd_Right,1,false);
 	}else{
@@ -98,6 +98,7 @@ if(global.clasificando){
 //--- nivel 2 ---
 if (global.NoClasificando){
 	global.acciones-=1;
+	global.NoClasificando = false;
 	audio_play_sound(Snd_Error,1,false);
 }
 

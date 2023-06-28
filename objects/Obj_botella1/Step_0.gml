@@ -95,6 +95,7 @@ if(global.clasificando){
 //--- nivel 2 ---
 if (global.NoClasificando){
 	global.acciones-=1;
+	global.NoClasificando = false;
 	audio_play_sound(Snd_Error,1,false);
 }
 
