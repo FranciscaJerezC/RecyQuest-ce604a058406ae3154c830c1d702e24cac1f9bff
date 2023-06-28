@@ -1,7 +1,14 @@
 /// @description crear nuevos desechos
 
 if (global.nuevoDeshecho){
-	instance_create_layer(100,820, "Instances", choose(Obj_botella1,Obj_botella2,Obj_botella3,Obj_plastico1,Obj_plastico2))
+	roomname = room_get_name(room)
+	if (roomname == "Nvl1_Preproceso"){
+		instance_create_layer(100,820, "Instances", choose(Obj_botella1,Obj_botella2,Obj_botella3,Obj_plastico1,Obj_plastico2))
+	}else if(roomname == "Nvl2_Preproceso"){
+		instance_create_layer(100,820, "Instances", choose(Obj_noReciclable,Obj_botella1,Obj_botella2,Obj_botella3,Obj_plastico1,Obj_plastico2))
+	}else if(roomname == "Nvl3_Preproceso"){
+		instance_create_layer(100,820, "Instances", choose(Obj_noReciclable,Obj_botella1,Obj_botella2,Obj_botella3,Obj_plastico1,Obj_plastico2))
+	}
 }
 
 //Cambio de sala
