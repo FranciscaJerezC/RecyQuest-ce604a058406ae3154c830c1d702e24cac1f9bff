@@ -22,7 +22,6 @@
     {"name":"inst_49A5C268_1","path":"rooms/Nvl2_Preproceso/Nvl2_Preproceso.yy",},
     {"name":"inst_302E97EC","path":"rooms/Nvl2_Preproceso/Nvl2_Preproceso.yy",},
     {"name":"inst_5EA42289","path":"rooms/Nvl2_Preproceso/Nvl2_Preproceso.yy",},
-    {"name":"inst_35A1605F","path":"rooms/Nvl2_Preproceso/Nvl2_Preproceso.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -42,7 +41,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74AC873B_1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_ConfPreproceso","path":"objects/Obj_ConfPreproceso/Obj_ConfPreproceso.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-135.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36258AF1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_ContClasificados","path":"objects/Obj_ContClasificados/Obj_ContClasificados.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3360.0,"y":270.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_49A5C268_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_botella1","path":"objects/Obj_botella1/Obj_botella1.yy",},"properties":[],"rotation":0.0,"scaleX":0.7,"scaleY":0.7,"x":1920.0,"y":810.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_35A1605F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Obj_noReciclable","path":"objects/Obj_noReciclable/Obj_noReciclable.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":100.0,"y":820.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"Spr_FondoConPantallas","path":"sprites/Spr_FondoConPantallas/Spr_FondoConPantallas.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
