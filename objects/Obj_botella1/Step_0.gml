@@ -40,6 +40,8 @@ if (x > room_width) {
 }
 
 
+
+
 if(global.lavando){
 	global.acciones-=1;
 	global.lavando = false;
@@ -105,7 +107,5 @@ if (error >=3){
 	error = 0;
 	instance_create_layer(2800,600, "Instances", Obj_ErrorVidrio);
 }
-
-
 
 

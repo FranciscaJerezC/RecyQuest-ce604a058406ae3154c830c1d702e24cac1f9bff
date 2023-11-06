@@ -1,3 +1,3 @@
-global.acciones = 30;
+global.acciones = 45;
 
 global.NoClasificando = false;

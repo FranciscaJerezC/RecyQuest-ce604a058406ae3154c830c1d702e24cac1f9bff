@@ -1,4 +1,12 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"Spr_lata2","order":1,"path":"sprites/Spr_lata2/Spr_lata2.yy",},
+    {"name":"Obj_ErrorCarton","order":3,"path":"objects/Obj_ErrorCarton/Obj_ErrorCarton.yy",},
+    {"name":"Obj_carton1","order":2,"path":"objects/Obj_carton1/Obj_carton1.yy",},
+    {"name":"Spr_lata3","order":2,"path":"sprites/Spr_lata3/Spr_lata3.yy",},
+    {"name":"Obj_lata2","order":4,"path":"objects/Obj_lata2/Obj_lata2.yy",},
+    {"name":"Obj_plastico3","order":1,"path":"objects/Obj_plastico3/Obj_plastico3.yy",},
+    {"name":"Obj_lata3","order":5,"path":"objects/Obj_lata3/Obj_lata3.yy",},
+  ],
 }

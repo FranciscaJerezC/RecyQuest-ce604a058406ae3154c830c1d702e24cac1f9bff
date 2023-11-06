@@ -3,11 +3,11 @@
 if (global.nuevoDeshecho){
 	roomname = room_get_name(room)
 	if (roomname == "Nvl1_Preproceso"){
-		instance_create_layer(100,820, "Instances", choose(Obj_botella1,Obj_botella2,Obj_botella3,Obj_plastico1,Obj_plastico2))
+		instance_create_layer(100,820, "Instances", choose(Obj_botella1,Obj_botella2,Obj_plastico1,Obj_plastico2))
 	}else if(roomname == "Nvl2_Preproceso"){
-		instance_create_layer(100,820, "Instances", choose(Obj_noReciclable,Obj_botella1,Obj_botella2,Obj_botella3,Obj_plastico1,Obj_plastico2))
+		instance_create_layer(100,820, "Instances", choose(Obj_noReciclable,Obj_botella1,Obj_botella2,Obj_botella3,Obj_plastico1,Obj_plastico2,Obj_plastico3))
 	}else if(roomname == "Nvl3_Preproceso"){
-		instance_create_layer(100,820, "Instances", choose(Obj_lata,Obj_noReciclable,Obj_botella1,Obj_botella2,Obj_botella3,Obj_plastico1,Obj_plastico2))
+		instance_create_layer(100,820, "Instances", choose(Obj_lata,Obj_lata2,Obj_lata3,Obj_noReciclable,Obj_botella2,Obj_botella3,Obj_plastico3,Obj_plastico2))
 	}
 }
 

@@ -1,1 +1,1 @@
-global.acciones = 40;
+global.acciones = 60;

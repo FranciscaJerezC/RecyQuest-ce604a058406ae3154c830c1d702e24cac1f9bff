@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_botella",
-    "path": "sprites/Spr_botella/Spr_botella.yy",
+    "name": "Spr_botella1",
+    "path": "sprites/Spr_botella1/Spr_botella1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
