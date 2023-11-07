@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_plastico1",
-    "path": "sprites/Spr_plastico1/Spr_plastico1.yy",
+    "name": "Spr_plastico2",
+    "path": "sprites/Spr_plastico2/Spr_plastico2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
