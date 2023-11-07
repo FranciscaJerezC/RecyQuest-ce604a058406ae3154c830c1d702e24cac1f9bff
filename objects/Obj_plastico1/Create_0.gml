@@ -12,6 +12,7 @@ error = 0;
 sprite_index = Spr_plastico1
 image_speed = 0;
 PuedeMover = false;
+// 1->vidrio, 2->Metal, 3->Plastico, 4->Carton, 5->Organico
 Material = 3;
 image_xscale = 0.7;
 image_yscale = 0.7;

@@ -11,6 +11,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Obj_Metal","path":"objects/Obj_Metal/Obj_Metal.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Obj_Plastico","path":"objects/Obj_Plastico/Obj_Plastico.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Obj_Vidrio","path":"objects/Obj_Vidrio/Obj_Vidrio.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Obj_Bas_vidrio","path":"objects/Obj_Bas_vidrio/Obj_Bas_vidrio.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
