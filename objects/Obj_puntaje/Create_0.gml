@@ -1,9 +1,9 @@
 
 /// @description obj_score Create
 
-max_score = 20; // Variable para almacenar el puntaje máximo posible
-var percentage = global.dinero / max_score;
-if (percentage >= 1)
+max_score = global.acciones / 4 ; // Variable para almacenar el puntaje máximo posible
+var percentage = (global.dinero/3) / max_score;
+if (percentage >= 0.9)
 {
     instance_create_layer(x, y, "Instances", Obj_medalla_oro);  // Mostrar medalla de oro
 }
