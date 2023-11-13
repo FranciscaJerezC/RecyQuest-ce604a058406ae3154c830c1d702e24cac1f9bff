@@ -12,7 +12,6 @@ error = 0;
 sprite_index = Spr_noReciclable;
 image_speed = 0;
 PuedeMover = false;
-Material = 1;
 image_xscale = 0.5;
 image_yscale = 0.5;
 

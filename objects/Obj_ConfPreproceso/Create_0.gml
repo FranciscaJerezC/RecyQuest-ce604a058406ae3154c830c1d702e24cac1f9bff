@@ -15,4 +15,5 @@ global.listaIndex = ds_list_create();
 
 global.nivelActual = 0;
 
-global.platita = global.dinero = 0;
+global.dinero = 0;
+global.platita = global.dinero;

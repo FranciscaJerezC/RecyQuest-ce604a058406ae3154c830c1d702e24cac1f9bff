@@ -5,7 +5,7 @@ if (global.nuevoDeshecho){
 	if(!ds_list_empty(global.listaPreprocesados)){
 		nuevoObjeto = global.listaPreprocesados[|0];
 		
-		instance_create_layer(100,820, "Instances", nuevoObjeto); 
+		instance_create_layer(100,820, "Basureros", nuevoObjeto); 
 		
 		ds_list_delete(global.listaPreprocesados, 0);
 
