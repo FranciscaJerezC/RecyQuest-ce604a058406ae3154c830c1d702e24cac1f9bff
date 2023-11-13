@@ -1,0 +1,11 @@
+/// @description Creacion del objeto
+
+sprite_index = Spr_Basurero;
+image_speed = 0;
+
+roomname = room_get_name(room)
+if (roomname == "Nvl3_Clasificacion"){
+	image_index = 0;
+}else{
+	image_index = 1;
+}
