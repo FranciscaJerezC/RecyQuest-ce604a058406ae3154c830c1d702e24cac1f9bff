@@ -8,8 +8,9 @@ if (Material == 1 )
 	global.clasificados-=1;
 	audio_play_sound(Snd_Right,1,false);
 }else{
-	if (roomname == "Nvl3_Clasificacion"){
 		audio_play_sound(Snd_Error,1,false);
+	if (roomname == "Nvl3_Clasificacion"){
+
 		global.dinero+=1;
 		global.nuevoDeshecho = true;
 		instance_destroy();

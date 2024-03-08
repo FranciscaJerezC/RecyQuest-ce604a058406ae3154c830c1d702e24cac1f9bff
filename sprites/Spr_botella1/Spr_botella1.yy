@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Spr_botella1",
-  "bbox_bottom": 1079,
+  "bbox_bottom": 1075,
   "bbox_left": 214,
   "bbox_right": 920,
   "bbox_top": 2,
