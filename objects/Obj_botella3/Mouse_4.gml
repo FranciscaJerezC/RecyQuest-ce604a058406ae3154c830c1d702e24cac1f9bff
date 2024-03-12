@@ -7,4 +7,8 @@ if (roomname == "Nvl2_Clasificacion" || roomname == "Nvl1_Clasificacion" || room
     PuedeMover = true;
     startX = x;
     startY = y;
+	if (mouse_check_button_pressed(mb_left)) {
+		         seleccionando = true;
+
+}
 }

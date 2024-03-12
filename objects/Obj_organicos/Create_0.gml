@@ -8,7 +8,7 @@ aplastado=true;
 moving = false;
 clasificado = false;
 error = 0;
-
+seleccionando = false;
 sprite_index = Spr_organicos
 image_speed = 0;
 PuedeMover = false;

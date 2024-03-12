@@ -1,7 +1,6 @@
 // Evento "Left Global Released" (Izquierdo global soltado)
 PuedeMover = false;
 moving = false;
-
 // Establecer la nueva posición en el eje Y después de soltar el objeto
 if (roomname == "Nvl2_Clasificacion" || roomname == "Nvl1_Clasificacion" || roomname == "Nvl3_Clasificacion") {
     // Establecer la nueva posición en el eje Y (ajusta el valor "nueva_Y" según tus necesidades)
@@ -10,6 +9,9 @@ if (roomname == "Nvl2_Clasificacion" || roomname == "Nvl1_Clasificacion" || room
 
     // Verificar la colisión con los contenedores solo si el objeto estaba siendo seleccionado
     if (seleccionando) {
+        // Agregar un mensaje de depuración para verificar si la función se activa
+   
+
         var container = noone;
 
         // Verificar si el mouse está sobre alguno de los contenedores
@@ -26,49 +28,10 @@ if (roomname == "Nvl2_Clasificacion" || roomname == "Nvl1_Clasificacion" || room
         }
 
         if (container != noone) {
-            clasificar(container);
+            // Llamar a la función clasificarDesecho y pasar las variables como argumentos
+            clasificarDesecho(Material, container, roomname);
         }
 
         seleccionando = false; // Restablecer la variable después de verificar las colisiones
-    }
-}
-
-// Función para clasificar el objeto
-function clasificar(contenedor) {
-    var objetoMaterial = Material;
-
-    switch (contenedor) {
-        case Obj_Bas_carton:
-            objetoMaterial = 4;
-            break;
-        case Obj_Bas_metal:
-            objetoMaterial = 2;
-            break;
-        case Obj_Bas_organico:
-            objetoMaterial = 5;
-            break;
-        case Obj_Bas_plastico:
-            objetoMaterial = 3;
-            break;
-        case Obj_Bas_vidrio:
-            objetoMaterial = 1;
-            break;
-    }
-
-    if (Material == objetoMaterial) {
-        // Clasificación correcta
-        instance_destroy();
-        global.nuevoDeshecho = true;
-        global.dinero += 3;
-        global.clasificados -= 1;
-        audio_play_sound(Snd_Right, 1, false);
-    } else {
-        // Clasificación incorrecta
-        audio_play_sound(Snd_Error, 1, false);
-        if (roomname == "Nvl3_Clasificacion") {
-            global.dinero += 1;
-            global.nuevoDeshecho = true;
-            instance_destroy();
-        }
     }
 }

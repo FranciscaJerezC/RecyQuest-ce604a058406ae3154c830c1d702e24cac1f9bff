@@ -8,7 +8,7 @@ aplastado=false;
 moving = false;
 clasificado = false;
 error = 0;
-
+seleccionando = false;
 sprite_index = Spr_plastico1
 image_speed = 0;
 PuedeMover = false;

@@ -97,6 +97,7 @@
     {"id":{"name":"Obj_ContClasificados","path":"objects/Obj_ContClasificados/Obj_ContClasificados.yy",},},
     {"id":{"name":"Spr_Basurero","path":"sprites/Spr_Basurero/Spr_Basurero.yy",},},
     {"id":{"name":"title","path":"sprites/title/title.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Spr_boton","path":"sprites/Spr_boton/Spr_boton.yy",},},
     {"id":{"name":"nivel3_btn","path":"sprites/nivel3_btn/nivel3_btn.yy",},},
     {"id":{"name":"Snd_Error","path":"sounds/Snd_Error/Snd_Error.yy",},},
