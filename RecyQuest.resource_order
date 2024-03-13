@@ -34,6 +34,7 @@
     {"name":"Spr_organicos","order":8,"path":"sprites/Spr_organicos/Spr_organicos.yy",},
     {"name":"Obj_lata2","order":4,"path":"objects/Obj_lata2/Obj_lata2.yy",},
     {"name":"Spr_carton1","order":4,"path":"sprites/Spr_carton1/Spr_carton1.yy",},
+    {"name":"obj_pantallaCompletayreturnMenu","order":14,"path":"objects/obj_pantallaCompletayreturnMenu/obj_pantallaCompletayreturnMenu.yy",},
     {"name":"Obj_plastico3","order":1,"path":"objects/Obj_plastico3/Obj_plastico3.yy",},
     {"name":"Obj_lata3","order":5,"path":"objects/Obj_lata3/Obj_lata3.yy",},
     {"name":"Obj_Bas_carton","order":11,"path":"objects/Obj_Bas_carton/Obj_Bas_carton.yy",},

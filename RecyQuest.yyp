@@ -136,6 +136,7 @@
     {"id":{"name":"Obj_Game_1","path":"objects/Obj_Game_1/Obj_Game_1.yy",},},
     {"id":{"name":"Room_MenuOpciones","path":"rooms/Room_MenuOpciones/Room_MenuOpciones.yy",},},
     {"id":{"name":"Spr_carton1","path":"sprites/Spr_carton1/Spr_carton1.yy",},},
+    {"id":{"name":"obj_pantallaCompletayreturnMenu","path":"objects/obj_pantallaCompletayreturnMenu/obj_pantallaCompletayreturnMenu.yy",},},
     {"id":{"name":"Obj_plastico3","path":"objects/Obj_plastico3/Obj_plastico3.yy",},},
     {"id":{"name":"Obj_mesaVacia","path":"objects/Obj_mesaVacia/Obj_mesaVacia.yy",},},
     {"id":{"name":"Obj_botella2","path":"objects/Obj_botella2/Obj_botella2.yy",},},
