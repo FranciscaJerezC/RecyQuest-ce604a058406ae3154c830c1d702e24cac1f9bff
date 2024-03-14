@@ -58,10 +58,15 @@ if (roomname == "Nvl2_Preproceso" || roomname == "Nvl1_Preproceso" || roomname =
 
 if(global.lavando){
 	global.acciones-=1;
-	image_index = 1;
 	global.lavando = false;
-	lavado = true;
-	audio_play_sound(Snd_Right,1,false);
+	if (lavado == false){
+		lavado = true;
+		image_index = 1;
+		audio_play_sound(Snd_Right,1,false);
+	}else{
+		audio_play_sound(Snd_Error,1,false);
+		error++;
+	}
 }
 if (global.quitando){
 	global.acciones-=1;
