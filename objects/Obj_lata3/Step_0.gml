@@ -1,6 +1,3 @@
-/// @description preproceso
-
-
 // Evento "Step" (Paso) del objeto
 if (moving) {
     var mouseX = mouse_x;
