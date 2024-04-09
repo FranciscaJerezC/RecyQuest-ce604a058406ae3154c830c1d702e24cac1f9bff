@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"nivel2_txt",
+  "%Name":"Tutorial_txt",
   "bboxMode":0,
-  "bbox_bottom":76,
-  "bbox_left":18,
-  "bbox_right":152,
+  "bbox_bottom":77,
+  "bbox_left":0,
+  "bbox_right":163,
   "bbox_top":37,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"eba84f19-a6d4-4caa-8f7d-f466387e89bb","name":"eba84f19-a6d4-4caa-8f7d-f466387e89bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"6006098a-c17f-464c-8de9-2de739a15362","name":"6006098a-c17f-464c-8de9-2de739a15362","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":115,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"62f28441-0c00-4112-88f4-9f7611f93902","blendMode":0,"displayName":"default","isLocked":false,"name":"62f28441-0c00-4112-88f4-9f7611f93902","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"91fbd7a8-3667-4651-b134-963ffce84e9f","blendMode":0,"displayName":"default","isLocked":false,"name":"91fbd7a8-3667-4651-b134-963ffce84e9f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"nivel2_txt",
+  "name":"Tutorial_txt",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"nivel2_txt",
+    "%Name":"Tutorial_txt",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"nivel2_txt",
+    "name":"Tutorial_txt",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eba84f19-a6d4-4caa-8f7d-f466387e89bb","path":"sprites/nivel2_txt/nivel2_txt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d3e97f6c-b325-4802-b253-7204328f119a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6006098a-c17f-464c-8de9-2de739a15362","path":"sprites/Tutorial_txt/Tutorial_txt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e47f55b1-8b0d-47d6-b759-c28ce02e8a98","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -41,8 +41,10 @@
     {"name":"scrHTTP_game","order":1,"path":"scripts/scrHTTP_game/scrHTTP_game.yy",},
     {"name":"scrHTTP_player","order":2,"path":"scripts/scrHTTP_player/scrHTTP_player.yy",},
     {"name":"flecha","order":9,"path":"sprites/flecha/flecha.yy",},
+    {"name":"fondo_NExtLEvel","order":15,"path":"sprites/fondo_NExtLEvel/fondo_NExtLEvel.yy",},
     {"name":"fondoinicialNuevo","order":11,"path":"sprites/fondoinicialNuevo/fondoinicialNuevo.yy",},
     {"name":"fondomenuSelect","order":14,"path":"sprites/fondomenuSelect/fondomenuSelect.yy",},
+    {"name":"Tutorial_txt","order":16,"path":"sprites/Tutorial_txt/Tutorial_txt.yy",},
     {"name":"pantalla_final","order":10,"path":"sprites/pantalla_final/pantalla_final.yy",},
     {"name":"recyman","order":13,"path":"sprites/recyman/recyman.yy",},
     {"name":"Spr_Basurero","order":7,"path":"sprites/Spr_Basurero/Spr_Basurero.yy",},
@@ -53,7 +55,6 @@
     {"name":"Spr_lata3","order":2,"path":"sprites/Spr_lata3/Spr_lata3.yy",},
     {"name":"Spr_organicos","order":8,"path":"sprites/Spr_organicos/Spr_organicos.yy",},
     {"name":"Spr_plastico3","order":3,"path":"sprites/Spr_plastico3/Spr_plastico3.yy",},
-    {"name":"fondo_NExtLEvel","order":15,"path":"sprites/fondo_NExtLEvel/fondo_NExtLEvel.yy",},
     {"name":"start","order":12,"path":"sprites/start/start.yy",},
   ],
 }
