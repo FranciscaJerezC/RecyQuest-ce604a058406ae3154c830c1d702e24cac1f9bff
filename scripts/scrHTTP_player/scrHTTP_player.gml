@@ -6,7 +6,7 @@ function scrHTTP_player(response,valueref){
 		
 ///////////////////// CHANGING NAME //////////////////
     case gmd_resp_nameupdated: //Name updated
-    show_message_async("The name has been changed to: "+string(valueref));
+    show_message_async("Se ha cambiado el nombre correctamente: "+string(valueref));
     break;
     case gmd_resp_namenotavailable: //Name has already been taken
     show_message_async("The name "+string(valueref)+" has already been taken");
@@ -17,13 +17,13 @@ function scrHTTP_player(response,valueref){
 
 ///////////////// SUBMITTING SCORE ////////////////
 	case gmd_resp_scoresubmitted: //Score submitted for the first time
-	show_message_async("Score Submitted!");
+	show_message_async("Puntaje enviado!");
 	break;
 	case gmd_resp_scoreupdated: //Score updated
-	show_message_async("Score Updated!");
+	show_message_async("Puntaje actualizado!");
 	break;
 	case gmd_resp_nothigherscore: //Score is not higher than the current one
-	show_message_async("Submitted score is not higher than the current one...");
+	show_message_async("El nuevo puntaje no es mayor que el actual...");
 	break;
 	case gmd_resp_invalidformat_score: //Invalid format(score or extra fields)
     show_message_async("Score: Invalid format");

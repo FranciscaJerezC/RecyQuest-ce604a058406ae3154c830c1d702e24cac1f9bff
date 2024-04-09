@@ -56,7 +56,7 @@ break;
 ////////////////////////////// RECOVERING SESSION /////////////////
 case gmd_resp_sessionloaded: //Session loaded(USING A RECOVERY CODE)
 show_message_async("Session loaded!"); //Session recovered
-show_message_async("Player name: "+string(valueref));
+show_message_async("Nombre del Jugador: "+string(valueref));
 /*ADVICE: RESTART THE GAME TO PREVENT INFORMATION ERRORS WITH THE PREVIOUS SESSION  */
 break;
 case gmd_resp_invalidcode: //Wrong code

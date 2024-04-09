@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ply_btn",
-    "path":"sprites/ply_btn/ply_btn.yy",
+    "name":"start",
+    "path":"sprites/start/start.yy",
   },
   "spriteMaskId":null,
   "visible":true,
