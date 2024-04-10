@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"nivel2_btn",
-    "path":"sprites/nivel2_btn/nivel2_btn.yy",
+    "name":"Spr_nivel_btn",
+    "path":"sprites/Spr_nivel_btn/Spr_nivel_btn.yy",
   },
   "spriteMaskId":null,
   "visible":true,
