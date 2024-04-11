@@ -12,8 +12,8 @@
   "name":"Obj_lata2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"desechos",
+    "path":"folders/Objects/desechos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object5",
+  "%Name":"Obj_DineroGanadoNivel1",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object5",
+  "name":"Obj_DineroGanadoNivel1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite6",
-    "path":"sprites/Sprite6/Sprite6.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

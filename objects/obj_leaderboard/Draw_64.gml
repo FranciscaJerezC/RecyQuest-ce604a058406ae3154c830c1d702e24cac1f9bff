@@ -22,7 +22,7 @@ if (roomname == "MenuInicial"){
 } else if(roomname == "GameOver"){
 	draw_set_font(Puntaje);
 	draw_set_halign(fa_left);
-	draw_text_transformed(1500, 550, "Puntaje: "+string(global.dinero),2,2,0);
+	draw_text_transformed(1500, 550, "Puntaje: "+string(global.dineroFinal),2,2,0);
 	
 	draw_text(1500,750, "Nombre: ");
 	draw_text(1500+500,750, "Puntaje: ");

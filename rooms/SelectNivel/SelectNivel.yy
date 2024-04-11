@@ -6,10 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_1DE20897","path":"rooms/SelectNivel/SelectNivel.yy",},
-    {"name":"inst_37DEA380","path":"rooms/SelectNivel/SelectNivel.yy",},
-    {"name":"inst_2598A4E1","path":"rooms/SelectNivel/SelectNivel.yy",},
-    {"name":"inst_61298BC3","path":"rooms/SelectNivel/SelectNivel.yy",},
     {"name":"inst_2C5A9741","path":"rooms/SelectNivel/SelectNivel.yy",},
     {"name":"inst_47EAF504","path":"rooms/SelectNivel/SelectNivel.yy",},
     {"name":"inst_57B95F64","path":"rooms/SelectNivel/SelectNivel.yy",},
@@ -24,10 +20,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"","%Name":"inst_1DE20897","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1DE20897","objectId":{"name":"Object5","path":"objects/Object5/Object5.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":1231.0,},
-        {"$GMRInstance":"","%Name":"inst_37DEA380","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37DEA380","objectId":{"name":"Object6","path":"objects/Object6/Object6.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":798.0,"y":1231.0,},
-        {"$GMRInstance":"","%Name":"inst_2598A4E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2598A4E1","objectId":{"name":"Object8","path":"objects/Object8/Object8.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3042.0,"y":1231.0,},
-        {"$GMRInstance":"","%Name":"inst_61298BC3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_61298BC3","objectId":{"name":"Object7","path":"objects/Object7/Object7.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2244.0,"y":1231.0,},
         {"$GMRInstance":"","%Name":"inst_2C5A9741","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C5A9741","objectId":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":9.0,"scaleX":5.287085,"scaleY":5.4870853,"x":1225.0,"y":379.0,},
         {"$GMRInstance":"","%Name":"inst_37ED8CDC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37ED8CDC","objectId":{"name":"obj_tutorial_btn","path":"objects/obj_tutorial_btn/obj_tutorial_btn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":864.0,},
         {"$GMRInstance":"","%Name":"inst_47EAF504","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47EAF504","objectId":{"name":"obj_nivel1_btn","path":"objects/obj_nivel1_btn/obj_nivel1_btn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":1120.0,},

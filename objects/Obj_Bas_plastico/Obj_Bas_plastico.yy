@@ -8,8 +8,8 @@
   "name":"Obj_Bas_plastico",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"contenedores",
+    "path":"folders/Objects/contenedores.yy",
   },
   "parentObjectId":null,
   "persistent":false,

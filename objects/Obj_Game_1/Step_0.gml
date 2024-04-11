@@ -14,11 +14,17 @@ if (global.nuevoDeshecho){
 		y= clamp(y,0,room_height);
 	}else{
 		if (roomname == "Nvl3_Clasificacion"){
-			gmda_submit(1,global.dinero);
+			gmda_submit(1,global.dineroFinal);
 			room_goto(GameOver);
 			
 		}else{
-			room_goto(FinalNivel);
+			if (roomname == "Nvl1_Clasificacion"){
+				room_goto(FinalNivel1);
+			} else if (roomname == "Nvl2_Clasificacion") {
+				room_goto(FinalNivel2);
+			}
+				
+
 		}
 
 	}

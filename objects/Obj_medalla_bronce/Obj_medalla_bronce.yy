@@ -6,8 +6,8 @@
   "name":"Obj_medalla_bronce",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"medallas",
+    "path":"folders/Objects/medallas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

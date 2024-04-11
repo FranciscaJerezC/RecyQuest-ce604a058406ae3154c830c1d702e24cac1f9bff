@@ -9,8 +9,8 @@
   "name":"Obj_noReciclable",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"desechos",
+    "path":"folders/Objects/desechos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

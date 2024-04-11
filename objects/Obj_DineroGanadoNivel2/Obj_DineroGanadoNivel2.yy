@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_DineroGanado",
+  "%Name":"Obj_DineroGanadoNivel2",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_DineroGanado",
+  "name":"Obj_DineroGanadoNivel2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
