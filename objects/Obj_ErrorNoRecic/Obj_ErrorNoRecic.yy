@@ -9,8 +9,8 @@
   "name":"Obj_ErrorNoRecic",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"PostIt",
+    "path":"folders/Objects/PostIt.yy",
   },
   "parentObjectId":null,
   "persistent":false,

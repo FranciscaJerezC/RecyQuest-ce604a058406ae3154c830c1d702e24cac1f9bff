@@ -6,8 +6,8 @@
   "name":"obj_nivel3_txt",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Botones",
+    "path":"folders/Objects/Botones.yy",
   },
   "parentObjectId":null,
   "persistent":false,

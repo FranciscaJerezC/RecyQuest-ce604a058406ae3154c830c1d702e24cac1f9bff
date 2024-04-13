@@ -8,8 +8,8 @@
   "name":"Obj_Bas_organico",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"contenedores",
+    "path":"folders/Objects/contenedores.yy",
   },
   "parentObjectId":null,
   "persistent":false,

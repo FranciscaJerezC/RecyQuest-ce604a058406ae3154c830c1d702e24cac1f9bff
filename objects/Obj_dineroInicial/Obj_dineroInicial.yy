@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object7",
-  "eventList":[],
+  "%Name":"Obj_dineroInicial",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object7",
+  "name":"Obj_dineroInicial",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite8",
-    "path":"sprites/Sprite8/Sprite8.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
