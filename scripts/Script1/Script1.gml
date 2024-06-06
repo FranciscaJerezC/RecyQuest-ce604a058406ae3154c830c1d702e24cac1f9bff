@@ -28,6 +28,9 @@ switch (roomname){
 			global.dineroNvl1 += 3;
 			global.dineroFinal += 3;
 			global.clasificados -= 1;
+			global.desechosReciclados += 1; // Incrementar desechos reciclados NUEVO LOGROS
+			show_debug_message("Desecho reciclado. Total reciclados: " + string(global.desechosReciclados));
+			verificarLogroReciclaje(); // Verificar si se ha cumplido el logro
 			audio_play_sound(Snd_Right, 1, false);
 		} else {
 			// Clasificación incorrecta

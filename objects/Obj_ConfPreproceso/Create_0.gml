@@ -17,3 +17,5 @@ global.nivelActual = 0;
 
 global.dinero = 0;
 global.platita = global.dinero;
+
+global.tiempoInicio = current_time;

@@ -99,6 +99,8 @@ if(global.clasificando){
 	if(lavado and material_quitado){
 		clasificado=true;
 		global.clasificados+=1;
+
+		
 		ds_list_add(global.listaPreprocesados, Obj_botella1);
 		ds_list_add(global.listaIndex, image_index);
 		show_debug_message(global.listaPreprocesados);
@@ -106,6 +108,7 @@ if(global.clasificando){
 		instance_destroy();
 		global.nuevoDeshecho = true;
 		audio_play_sound(Snd_Right,1,false);
+		
 	}else{
 		audio_play_sound(Snd_Error,1,false);
 		error++;

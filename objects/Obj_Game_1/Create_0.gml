@@ -9,3 +9,6 @@ global.aplastando = false;
 global.clasificando = false;
 global.quitando = false;
 global.nuevoDeshecho = true;
+
+
+
