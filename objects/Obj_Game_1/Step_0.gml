@@ -15,7 +15,7 @@ if (global.nuevoDeshecho){
 	}else{
 		if (roomname == "Nvl3_Clasificacion"){
 			gmda_submit(1,global.dineroFinal);
-			room_goto(GameOver);
+			room_goto(FinalNivel3);
 			
 		}else{
 			if (roomname == "Nvl1_Clasificacion"){
@@ -30,4 +30,3 @@ if (global.nuevoDeshecho){
 	}
 	
 }
-

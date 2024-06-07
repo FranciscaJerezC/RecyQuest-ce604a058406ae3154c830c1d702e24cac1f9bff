@@ -46,8 +46,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"desechos",
+    "path":"folders/Sprites/desechos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"medallas_logros",
+    "path":"folders/Sprites/medallas_logros.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

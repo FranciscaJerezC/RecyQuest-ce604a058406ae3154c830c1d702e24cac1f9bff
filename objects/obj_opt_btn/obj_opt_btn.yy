@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"opt_btn",
-    "path":"sprites/opt_btn/opt_btn.yy",
+    "name":"logros",
+    "path":"sprites/logros/logros.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -2,5 +2,5 @@
 // Puede escribir su código en este editor
 if (press == true)
 {
-	room_goto(Room_MenuOpciones);
+	room_goto(Room_MenuLogros);
 }
