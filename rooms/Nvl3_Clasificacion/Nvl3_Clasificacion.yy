@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_40886B59_1_1","path":"rooms/Nvl3_Clasificacion/Nvl3_Clasificacion.yy",},
-    {"name":"inst_1363B629_1_1","path":"rooms/Nvl3_Clasificacion/Nvl3_Clasificacion.yy",},
     {"name":"inst_6B7CE5F2_1_1","path":"rooms/Nvl3_Clasificacion/Nvl3_Clasificacion.yy",},
     {"name":"inst_19B0F1E1_1_1","path":"rooms/Nvl3_Clasificacion/Nvl3_Clasificacion.yy",},
     {"name":"Carton","path":"rooms/Nvl3_Clasificacion/Nvl3_Clasificacion.yy",},
@@ -15,15 +14,16 @@
     {"name":"inst_37258A9","path":"rooms/Nvl3_Clasificacion/Nvl3_Clasificacion.yy",},
     {"name":"inst_1637CE93","path":"rooms/Nvl3_Clasificacion/Nvl3_Clasificacion.yy",},
     {"name":"inst_33498B11","path":"rooms/Nvl3_Clasificacion/Nvl3_Clasificacion.yy",},
+    {"name":"inst_6F8ED215","path":"rooms/Nvl3_Clasificacion/Nvl3_Clasificacion.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Basura","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Basura","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_40886B59_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40886B59_1_1","objectId":{"name":"Obj_Game_1","path":"objects/Obj_Game_1/Obj_Game_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4128.0,"y":1728.0,},
-        {"$GMRInstance":"","%Name":"inst_1363B629_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1363B629_1_1","objectId":{"name":"Obj_DineroGanadoNivel1","path":"objects/Obj_DineroGanadoNivel1/Obj_DineroGanadoNivel1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3424.0,"y":256.0,},
         {"$GMRInstance":"","%Name":"inst_6B7CE5F2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B7CE5F2_1_1","objectId":{"name":"Obj_botella1","path":"objects/Obj_botella1/Obj_botella1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":1024.0,},
         {"$GMRInstance":"","%Name":"inst_19B0F1E1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19B0F1E1_1_1","objectId":{"name":"Obj_Clasificados_Nivel2","path":"objects/Obj_Clasificados_Nivel2/Obj_Clasificados_Nivel2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":256.0,},
+        {"$GMRInstance":"","%Name":"inst_6F8ED215","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6F8ED215","objectId":{"name":"Obj_DineroGanadoNivel3","path":"objects/Obj_DineroGanadoNivel3/Obj_DineroGanadoNivel3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3424.0,"y":256.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Basureros","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"Carton","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"Carton","objectId":{"name":"Obj_Bas_carton","path":"objects/Obj_Bas_carton/Obj_Bas_carton.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":1568.0,},

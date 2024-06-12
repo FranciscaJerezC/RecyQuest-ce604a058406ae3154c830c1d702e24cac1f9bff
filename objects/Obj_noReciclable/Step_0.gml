@@ -40,46 +40,58 @@ if (x > room_width) {
 }
 
 
+
+
 if(global.lavando){
 	global.acciones-=1;
 	global.lavando = false;
 	audio_play_sound(Snd_Error,1,false);
+
 	error++;
 }
 if (global.quitando){
 	global.acciones-=1;
 	global.quitando = false;
 	error++;
+
 	audio_play_sound(Snd_Error,1,false);
 }
 if (global.aplastando){
 	global.acciones-=1;
 	global.aplastando = false;
 	audio_play_sound(Snd_Error,1,false);
+
 	error++;
 }
 if(global.clasificando){
 	global.acciones-=1;
 	global.clasificando = false;
 	audio_play_sound(Snd_Error,1,false);
+
 	error++;
 }
 
 //--- nivel 2 ---
 if (global.NoClasificando){
 	global.clasificados+=1;
+        if (!global.errorCometido) {
+            global.objetosPreprocesados += 1; // Incrementa el contador de objetos preprocesados
+            show_debug_message("Objetos preprocesados sin error: " + string(global.objetosPreprocesados));
+        }
 	global.NoClasificando = false;
 	global.acciones-=1;
+	global.clasificadosNoReciclables+= 1;
 	audio_play_sound(Snd_Right,1,false);
 	instance_destroy();
 	global.platita++;
 	global.platita++;
 	global.nuevoDeshecho = true;
+	verificarLogroAprendizPreproceso();
+	verificarLogroMaestroPreproceso();
+	verificarLogroDiosPreproceso();
 }
 
 if (error >=3){
 	error = 0;
 	instance_create_layer(2800,600, "Instances", Obj_ErrorNoRecic);
 }
-
-

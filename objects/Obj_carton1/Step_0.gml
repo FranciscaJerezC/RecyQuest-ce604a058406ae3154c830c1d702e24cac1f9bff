@@ -57,6 +57,7 @@ if (roomname == "Nvl2_Preproceso" || roomname == "Nvl1_Preproceso" || roomname =
 }
 
 
+
 if(global.lavando){
 	global.acciones-=1;
 	global.lavando = false;
@@ -66,6 +67,7 @@ if(global.lavando){
 		audio_play_sound(Snd_Right,1,false);
 	}else{
 		audio_play_sound(Snd_Error,1,false);
+
 		error++;
 	}
 }
@@ -78,6 +80,7 @@ if (global.quitando){
 		audio_play_sound(Snd_Right,1,false);
 	}else{
 		audio_play_sound(Snd_Error,1,false);
+
 		error++;
 	}
 }
@@ -90,6 +93,7 @@ if (global.aplastando){
 		audio_play_sound(Snd_Right,1,false);
 	}else{
 		audio_play_sound(Snd_Error,1,false);
+
 		error++;
 	}
 }
@@ -99,13 +103,21 @@ if(global.clasificando){
 	if(lavado and material_quitado and aplastado){
 		clasificado=true;
 		global.clasificados+=1;
+        if (!global.errorCometido) {
+            global.objetosPreprocesados += 1; // Incrementa el contador de objetos preprocesados
+            show_debug_message("Objetos preprocesados sin error: " + string(global.objetosPreprocesados));
+        }
 		ds_list_add(global.listaPreprocesados, Obj_carton1);
 		ds_list_add(global.listaIndex, image_index);
 		instance_destroy();
 		global.nuevoDeshecho = true;
 		audio_play_sound(Snd_Right,1,false);
+		verificarLogroAprendizPreproceso();
+		verificarLogroMaestroPreproceso();
+		verificarLogroDiosPreproceso();
 	}else{
 		audio_play_sound(Snd_Error,1,false);
+
 		error++;
 	}
 }
@@ -115,6 +127,7 @@ if (global.NoClasificando){
 	global.acciones-=1;
 	global.NoClasificando = false;
 	error++;
+
 	audio_play_sound(Snd_Error,1,false);
 }
 

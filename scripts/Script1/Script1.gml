@@ -1,5 +1,6 @@
 function clasificarDesecho(Material, container, roomname) {
     // Verificar el contenedor proporcionado como argumento
+    var objetoMaterial;
     switch (container) {
         case Obj_Bas_carton:
             objetoMaterial = 4;
@@ -27,16 +28,21 @@ function clasificarDesecho(Material, container, roomname) {
                 global.dineroNvl1 += 3;
                 global.dineroFinal += 3;
                 global.clasificados -= 1;
+                global.totalClasificados += 1; // Incrementa el total de desechos clasificados
                 global.desechosReciclados += 1; // Incrementar desechos reciclados NUEVO LOGROS
                 show_debug_message("Desecho reciclado. Total reciclados: " + string(global.desechosReciclados));
                 verificarLogroReciclaje(); // Verificar si se ha cumplido el logro
                 audio_play_sound(Snd_Right, 1, false);
+                if (global.clasificados == 0) {
+                    // Todos los desechos han sido clasificados
+                    global.rondaCompletada = true;
+
+                }
             } else {
                 // Clasificación incorrecta
                 global.errorCometido = true; // El usuario ha cometido un error
                 audio_play_sound(Snd_Error, 1, false);
             }
-            verificarLogroMaestria(); // Verificar si se ha cumplido el logro de maestría
             break;
         case "Nvl2_Clasificacion":
             if (Material == objetoMaterial) {
@@ -46,13 +52,21 @@ function clasificarDesecho(Material, container, roomname) {
                 global.dineroNvl2 += 3;
                 global.dineroFinal += 3;
                 global.clasificados -= 1;
+                global.totalClasificados += 1; // Incrementa el total de desechos clasificados
+                global.desechosReciclados += 1; // Incrementar desechos reciclados NUEVO LOGROS
+                show_debug_message("Desecho reciclado. Total reciclados: " + string(global.desechosReciclados));
+                verificarLogroReciclaje(); // Verificar si se ha cumplido el logro
                 audio_play_sound(Snd_Right, 1, false);
+                if (global.clasificados == 0) {
+                    // Todos los desechos han sido clasificados
+                    global.rondaCompletada = true;
+
+                }
             } else {
                 // Clasificación incorrecta
                 global.errorCometido = true; // El usuario ha cometido un error
                 audio_play_sound(Snd_Error, 1, false);
             }
-            verificarLogroMaestria(); // Verificar si se ha cumplido el logro de maestría
             break;
         case "Nvl3_Clasificacion":
             if (Material == objetoMaterial) {
@@ -62,8 +76,17 @@ function clasificarDesecho(Material, container, roomname) {
                 global.dineroNvl3 += 3;
                 global.dineroFinal += 3;
                 global.clasificados -= 1;
+                global.totalClasificados += 1; // Incrementa el total de desechos clasificados
+                global.desechosReciclados += 1; // Incrementar desechos reciclados NUEVO LOGROS
+                show_debug_message("Desecho reciclado. Total reciclados: " + string(global.desechosReciclados));
+                verificarLogroReciclaje(); // Verificar si se ha cumplido el logro
                 audio_play_sound(Snd_Right, 1, false);
-            } else {
+                if (global.clasificados == 0) {
+                    // Todos los desechos han sido clasificados
+                    global.rondaCompletada = true;
+
+                }
+				} else {
                 // Clasificación incorrecta
                 global.errorCometido = true; // El usuario ha cometido un error
                 audio_play_sound(Snd_Error, 1, false);
@@ -72,7 +95,6 @@ function clasificarDesecho(Material, container, roomname) {
                 global.nuevoDeshecho = true;
                 instance_destroy();
             }
-            verificarLogroMaestria(); // Verificar si se ha cumplido el logro de maestría
             break;
     }
 }

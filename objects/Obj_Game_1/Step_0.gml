@@ -23,10 +23,6 @@ if (global.nuevoDeshecho){
 			} else if (roomname == "Nvl2_Clasificacion") {
 				room_goto(FinalNivel2);
 			}
-				
-
 		}
-
 	}
-	
 }
